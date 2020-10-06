@@ -1,0 +1,226 @@
+
+body{ 
+    width: 100%;
+   height: 100%;
+}
+@font-face{
+font-family: "bebas neue";
+src: url(../fonts/BebasNeue-Regular.woff2);
+}
+
+/*carrousel vertical*/
+/* translated3d(): permet de déplacer un élèment dans l'espace en 3D*/
+
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+}
+/*les indicateur slide*/
+.indicateur{
+    border-radius: 100%;
+    height: 10px !important;  
+    width: 10px !important;
+    
+
+}
+/*le titre du centre*/
+.burgers{
+    position: absolute;
+    bottom: 400px;
+    z-index: 1;
+    font-size: 200px;
+    width: 100%;
+    color: black;
+    
+    
+    
+}
+.epices{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    z-index:2;
+    bottom: 700px;
+    left:85em;
+}
+.recommandation {
+    position: absolute;
+    z-index: 3;
+    bottom: 50px;
+    color: rgb(252, 250, 248);
+
+}
+.instagram{
+    position: absolute;
+    z-index: 7;
+    bottom: 250px;
+    padding-left: 25px;
+    height: 80px;
+    
+}
+
+
+.facebook{
+    position: absolute;
+    z-index: 7;
+    bottom: 150px;
+    padding-left: 20px;
+    height: 80px;
+    
+}
+
+.messenger{
+    position: absolute;
+    z-index: 7;
+    bottom: 50px;
+    padding-left: 20px;
+    height: 80px;
+}
+
+.cafe{
+    bottom: 350px;
+    left: 300px;
+    position: absolute;
+    color: black;
+
+}
+.trace1{
+    position: absolute;
+    z-index: 5;
+    bottom:400px;
+    right:70px;
+    width: 900px;
+}
+.trace2{
+    position: absolute;
+    z-index: 5;
+    bottom: 600px;
+    right:70px;
+    width: 900px;
+}
+.titre{
+    position: absolute;
+    z-index: 2;
+    bottom:30px;
+    left:-40px;
+    height:1010px ;
+    
+}
+
+
+.background_menu_burgers{
+    position: relative;
+    width: 100%;
+}
+
+.formule{
+    position: absolute;
+    z-index: 3;
+    color: black;
+    font-size: 6rem;
+    text-transform: uppercase ; 
+    bottom: 200px;
+    transform: rotate(270deg);
+    right:  -100px;
+    
+    
+}
+.titre_burgers{
+    position: absolute;
+    z-index: 3;
+    color: black;
+    font-size: 6rem;
+    text-transform: uppercase ;
+    bottom: 650px; 
+    left: 100px;
+    transform: rotate(-10deg);
+
+}
+.bloc_gris{
+    background-color: #7E7E7E;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 600PX;
+    bottom: 130px;
+    opacity: 0.80;
+}
+.autre{
+    color: rgb(252, 250, 248);
+    position: absolute;
+    
+    bottom: 50px;
+    left: 350px;
+}
+.animation_burgers{
+    position: absolute;
+    z-index: 6;
+    bottom: 32%;
+    left: 40%;
+    width: 350px;
+    opacity: 0.73;
+    animation-duration: 1s;
+    animation-name: burgers;
+    
+}
+@keyframes{
+    from{
+        
+    }
+}
+
+.burgers_3{
+    position: absolute;
+    z-index: 2;
+    bottom: 41%;
+    left: 21%;
+    width: 310px;
+    opacity: 0.73;
+}
+
+.burgers_2{
+    position: absolute;
+    z-index: 2;
+    bottom: 43%;
+    left:58%;
+    width: 330px;
+    opacity: 0.73;
+}
+.best{
+    position: absolute;
+    z-index: 7;
+    bottom: 40%;
+    left:53%;
+    width: 180px;
+    height: 180px;
+    opacity: 0;
+    transition: 1s;
+   
+}
+
+.best:hover{
+    position: absolute;
+    z-index: 7;
+    bottom: 40%;
+    left:53%;
+    width: 180px;
+    height: 180px;
+    opacity: 1;
+    transition: 1s;
+   
+}
