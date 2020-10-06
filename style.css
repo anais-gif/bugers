@@ -1,11 +1,14 @@
-
-body{ 
+body {
     width: 100%;
-   height: 100%;
+    height: 100%;
 }
-@font-face{
-font-family: "bebas neue";
-src: url(../fonts/BebasNeue-Regular.woff2);
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-regular-webfont.woff2') format('woff2'),
+        url('bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*carrousel vertical*/
@@ -14,51 +17,89 @@ src: url(../fonts/BebasNeue-Regular.woff2);
 .vert .carousel-item-next.carousel-item-left,
 .vert .carousel-item-prev.carousel-item-right {
     -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
 .vert .carousel-item-next,
 .vert .active.carousel-item-right {
     -webkit-transform: translate3d(0, 100%, 0);
-            transform: translate3d(0, 100% 0);
+    transform: translate3d(0, 100% 0);
 }
 
 .vert .carousel-item-prev,
 .vert .active.carousel-item-left {
--webkit-transform: translate3d(0,-100%, 0);
-        transform: translate3d(0,-100%, 0);
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
 }
+
 /*les indicateur slide*/
-.indicateur{
+.indicateur {
     border-radius: 100%;
-    height: 10px !important;  
+    height: 10px !important;
     width: 10px !important;
-    
+
 
 }
+
 /*le titre du centre*/
-.burgers{
+.burgers {
     position: absolute;
-    bottom: 400px;
+    top: 160px;
     z-index: 1;
-    font-size: 200px;
+    font-size: 330px;
     width: 100%;
     color: black;
     text-align: center;
-    
-    
-    
+    font-family: bebas_neueregular;
+
+
+
 }
-.epices{
+
+.cafe {
+    bottom: 270px;
+    position: absolute;
+    color: black;
+    text-align: center;
+    font-family: bebas_neueregular;
+    letter-spacing: 3.5rem;
+    font-size:100px;
+    left: 40px;
+}
+
+.trace1{
+    position: absolute;
+    z-index: 1;
+    bottom:390px;
+    right:330px;
+    width: 900px;
+}
+.trace2{
+    position: absolute;
+    z-index: 1;
+    top: 212px;
+    right:330px;
+    width: 900px;
+}
+
+.background_epices {
+    position: relative;
+}
+.background_menu_position{
+    position: relative;
+}
+.background_mix{
     position: relative;
 }
 
-.logo{
+.logo {
     position: absolute;
-    z-index:2;
-    bottom: 700px;
-    left:85em;
+    z-index: 2;
+    top: 40px;
+    right: 40px;
+
 }
+
 .recommandation {
     position: absolute;
     z-index: 3;
@@ -66,280 +107,376 @@ src: url(../fonts/BebasNeue-Regular.woff2);
     color: rgb(252, 250, 248);
 
 }
-.instagram{
+
+.instagram {
     position: absolute;
     z-index: 7;
     bottom: 250px;
     padding-left: 25px;
     height: 80px;
-    
+
 }
 
 
-.facebook{
+.facebook {
     position: absolute;
     z-index: 7;
     bottom: 150px;
     padding-left: 20px;
     height: 80px;
-    
+
 }
 
-.messenger{
+.messenger {
     position: absolute;
     z-index: 7;
     bottom: 50px;
     padding-left: 20px;
     height: 80px;
 }
-
-.cafe{
-    bottom: 350px;
-    
-    position: absolute;
-    color: black;
-    text-align: center;
-
-}
-.trace1{
-    position: absolute;
-    z-index: 5;
-    bottom:400px;
-    right:20%;
-    width: 900px;
-}
-.trace2{
-    position: absolute;
-    z-index: 5;
-    bottom: 600px;
-    right:20%;
-    width: 900px;
-}
-.titre{
+.titre {
     position: absolute;
     z-index: 2;
-    bottom:30px;
-    left:-40px;
-    height:1010px ;
-    
+    bottom: 10%;
+    left: -4%;
+    height: 950px;
+
 }
 
 
-}
-.formule{
+.formule {
     position: absolute;
     z-index: 3;
     color: black;
-    font-size: 6rem;
-    text-transform: uppercase ; 
-    bottom: 200px;
+    font-size: 130px;
+    text-transform: uppercase;
+    bottom: 40%;
     transform: rotate(270deg);
-    right:  -100px;
-    
-    
+    right: -300px;
+    font-family: bebas_neueregular;
+
+
+
+
 }
-.titre_burgers{
+
+.titre_burgers {
     position: absolute;
     z-index: 3;
     color: black;
-    font-size: 6rem;
-    text-transform: uppercase ;
-    bottom: 650px; 
-    left: 100px;
+    font-size: 150px;
+    text-transform: uppercase;
+    bottom: 69%;
+    left: 90px;
     transform: rotate(-10deg);
-    font-family: b;
-    
+    font-family: bebas_neueregular;
+
 
 }
-.bloc_gris{
+
+.bloc_gris {
     background-color: #7E7E7E;
     position: absolute;
     z-index: 1;
     width: 100%;
-    height: 800PX;
-    bottom: 150px;
+    height: 600PX;
+    bottom: 130px;
     opacity: 0.80;
 }
-.autre{
-    color: rgb(252, 250, 248);
+
+.autre {
+    color:white;
     position: absolute;
-    
+    font-family:script MT ;
+    font-size: 20px;
     bottom: 50px;
-    left: 350px;
+    left: 355px;
 }
-.animation_burgers{
+
+.animation_burgers {
     position: absolute;
     z-index: 6;
-    bottom: 32%;
+    bottom: 30%;
     left: 40%;
     width: 350px;
     opacity: 0.73;
     animation-duration: 1s;
     animation-name: burgers;
-    
+
+} 
+.classique{
+    position: absolute;
+    color: white;
+    font-family: bebas_neueregular;
+    font-size: 100px;
+    z-index: 2;
+    top: 27%;
+    left: 40%;
 }
 
-
-.burgers_3{
+.burgers_3 {
     position: absolute;
     z-index: 2;
-    bottom: 41%;
+    top: 20%;
     left: 21%;
     width: 310px;
-    opacity: 0.73;
+    opacity: 0.50;
 }
 
-.burgers_2{
+.burgers_2 {
     position: absolute;
     z-index: 2;
-    bottom: 43%;
-    left:58%;
+    bottom: 47%;
+    right: 20%;
     width: 330px;
-    opacity: 0.73;
+    opacity: 0.50;
 }
-.best{
+
+.best {
     position: absolute;
     z-index: 7;
     bottom: 40%;
-    left:53%;
+    left: 53%;
     width: 180px;
     height: 180px;
     opacity: 0;
     transition: 1s;
-   
+
 }
 
-.best:hover{
+.best:hover {
     position: absolute;
     z-index: 7;
     bottom: 40%;
-    left:53%;
+    left: 53%;
     width: 180px;
     height: 180px;
     opacity: 1;
     transition: 1s;
-   
+
 }
-.recette{
+
+.recette {
     position: absolute;
     z-index: 7;
-    bottom:5%;
-    left:40%;
-    width: 400px;
-    height: 180px;  
+    bottom: 15%;
+    left: 37%;
+   font-size:30px ;
     text-align: center;
+    width: 450px;
     color: aliceblue;
+    font-family: bebas_neueregular;
 }
-.menu_complet{
+
+.menu_complet {
     position: absolute;
     z-index: 1;
     top: 20%;
-    left:20%;
-    width: 300px;
-    height: 180px;
+    left: 15%;
+    font-size: 110px;
+    color: white;
+    font-family: bebas_neueregular;
 }
-.menu_simple{
+
+.menu_simple {
     position: absolute;
     z-index: 1;
     top: 20%;
-    right:20%;
-    width: 300px;
-    height: 180px;
-    font-family: ;
+    right: 15%;
+    font-size: 110px;
+    color: white;
+    font-family: bebas_neueregular;
+
 }
-.cocacola_droit{
+
+.cocacola_droit {
     position: absolute;
     z-index: 1;
     top: 14%;
-    right:-5%;
-  height: 400px;
-   
+    right: -5%;
+    height: 400px;
+
 }
-.cocacola_gauche{
+
+.cocacola_gauche {
     position: absolute;
     z-index: 1;
     top: 25%;
-    left:-6%;
+    left: -6%;
     height: 450px;
 
-   
+
 
 }
-.salade_gauche{
+
+.salade_gauche {
     position: absolute;
     z-index: 2;
     top: 51%;
-    left:1%;
+    left: 1%;
     height: 230px;
 }
-.salade_droite{
+
+.salade_droite {
     position: absolute;
     z-index: 3;
-    top: 48%;
-    right:20%;
-    height: 300px;
+    top: 35%;
+   right: 1%;
+    height: 230px;
 }
-.frite_gauche{
+
+.frite_droite {
+    position: absolute;
+    z-index: 3;
+    top: 30%;
+    right: 23%;
+    height: 290px;
+}
+.frite_gauche {
     position: absolute;
     z-index: 3;
     bottom: 20%;
-    left:23%;
+    left: 23%;
     height: 290px;
 }
-.burgers_gauche{
+
+.burgers_gauche {
     position: absolute;
     z-index: 3;
     bottom: 7%;
-    left:13%;
+    left: 13%;
     height: 350px;
 }
- .le_plus{
+.burgers_droite{
     position: absolute;
     z-index: 3;
-    bottom: 11%;
-    left: 33%;
-    color: white;
-    font-size: 90PX;
+    bottom: 28%;
+    right: 15%;
+    height: 230px;
+}
 
- }
- .dessert{
+.le_plus {
+    position: absolute;
+    z-index: 3;
+    bottom:9%;
+    left: 34%;
+    color: white;
+    font-size: 90px;
+    font-family: bebas_neueregular;
+
+}
+
+.dessert {
     position: absolute;
     z-index: 3;
     bottom: 3%;
     left: 35%;
     color: white;
     height: 210px;
- }
- .vs{
+}
+
+.vs {
     position: absolute;
     z-index: 3;
-    bottom: 30%;
+    bottom: 20%;
     left: 40%;
- }
- 
-.instagram_droite{
+}
+
+.menu_simple_recette{
+    position: absolute;
+    z-index: 7;
+    bottom: 18%;
+    color: white;
+    font-family: bebas_neueregular;
+    font-size: 30px;
+    width: 320px;
+    right: 15%;
+    text-align: center;
+
+}
+
+.menu_complet_recette {
+    position: absolute;
+    z-index: 7;
+    bottom:50%;
+    color: white;
+    font-family: bebas_neueregular;
+    font-size: 30px;
+    width: 320px;
+    left: 15%;
+    text-align: center;
+}
+
+.petit_dejeuner{
+    position: absolute;
+    z-index: 3;
+    top: 17%;
+    right: 23%;
+    font-family: bebas_neueregular;
+    color: white;
+    font-size: 120px;
+    width: 400px;
+    text-align: center;
+}
+.tache_de_cafe{
+    position: absolute;
+    z-index: 2;
+    top:6%;
+    right: 10%;
+    height: 830px;
+}
+.text_dejeuner{
+    position: absolute;
+    z-index: 2;
+    font-family: bebas_neueregular;
+    color: white;
+    text-align: center;
+    bottom: 23%;
+    font-size: 23px;
+    right: 22%;
+    width: 25%;
+}
+ .cafe{
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 15%;
+    width:550px ;
+
+}
+.text_information-dejeuner{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    bottom: 5%;
+    left: 20%;
+    font-size: 30px;
+    font-family:script MT ;
+    
+}
+
+.instagram_droite {
     position: absolute;
     z-index: 7;
     bottom: 250px;
     right: 20px;
     height: 80px;
-    
 }
 
-
-.facebook_droite{
+.facebook_droite {
     position: absolute;
     z-index: 7;
     bottom: 150px;
     right: 20px;
     height: 80px;
-    
+
 }
 
-.messenger_droite{
+.messenger_droite {
     position: absolute;
     z-index: 7;
     bottom: 50px;
     right: 20px;
     height: 80px;
 }
+
