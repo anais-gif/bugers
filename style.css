@@ -642,3 +642,44 @@ body {
     border-radius: 40px;
     text-align: end;
 }
+
+.micro{
+    position: absolute;
+    z-index: 2;
+    bottom: 10%;
+    left: 15%;
+    width:360px ;
+}
+
+.vos_micro{
+    position: absolute;
+    z-index: 3;
+    color: red;
+    font-family:script MT  ;
+    font-size: 120px;
+    bottom: 20%;
+    left: 10%;
+    transform: rotate(-20deg);
+}
+
+.titre_animation{
+    position: absolute;
+    z-index: 2;
+    font-family: bebas_neueregular;
+    top: 20%;
+    right: 10%;
+    font-size: 80px;
+    color:white;
+}
+.animation_principal{
+    position: absolute;
+    z-index: 2;
+    font-family: bebas_neueregular;
+    bottom: 30%;
+    right: 5%;
+    font-size: 35px;
+    color:white;
+    width: 770px;
+    text-align: center;
+    line-height: 40px;
+}
