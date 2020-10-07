@@ -510,16 +510,16 @@ body {
 .instagram{
     position: absolute;
     z-index: 7;
-    bottom: 250px;
-    right: 20px;
+    top: 25px;
+   left: 40%;
     height: 80px;
 }
 
 .facebook {
     position: absolute;
     z-index: 7;
-    bottom: 150px;
-    right: 20px;
+    top: 25px;
+    left: 46%;
     height: 80px;
 
 }
@@ -527,9 +527,9 @@ body {
 .messenger {
     position: absolute;
     z-index: 7;
-    bottom: 50px;
-    right: 20px;
-    height: 80px;
+    top: 28px;
+    left: 52%;
+    height: 81px;
 }
 .open_bar{
     position: absolute;
@@ -680,6 +680,43 @@ body {
     font-size: 35px;
     color:white;
     width: 770px;
+    text-align: center;
+    line-height: 40px;
+}
+.carte{
+    position: absolute;
+    z-index: 1;
+    top: -10%;
+    right: -2%;
+    width: 650px;
+}
+
+.here{
+    position: absolute;
+    z-index: 3;
+    top: 30%;
+    right: 8%;
+    width: 100px;
+}
+
+.notre{
+    position: absolute;
+    z-index: 2;
+    font-family: bebas_neueregular;
+   top: 20%;
+    left: 12%;
+    font-size: 35px;
+    color:white;
+    font-size: 80px;
+}
+.etablissement{
+    position: absolute;
+    z-index: 3;
+    top: 35%;
+    left: 5%; 
+    font-family: bebas_neueregular;
+    color:white;
+    width: 800px;
     text-align: center;
     line-height: 40px;
 }
