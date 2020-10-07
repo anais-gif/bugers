@@ -436,7 +436,7 @@ body {
     right: 22%;
     width: 25%;
 }
- .cafe{
+ .cafe_cafe{
     position: absolute;
     z-index: 2;
     top: 20%;
@@ -454,7 +454,67 @@ body {
     font-family:script MT ;
     
 }
+.titre_formule_petit_dejeuner{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    top: 20%;
+    font-family: bebas_neueregular;
+    width: 100%;
+    text-align: center;
+    font-size: 120px;
+}
+.boisson_tea{
+    position: absolute;
+    z-index: 2;
+    top: 24%;
+    width: 630px;
+    left: 12%;
+}
+.cappuchino{
+    position: absolute;
+    z-index: 2;
+    top: 28%;
+    width:380px;
+    right: 22%;
+}
+.croissant{
+    position: absolute;
+    z-index: 2;
+    bottom: 20%;
+    right: 10%;
+    width: 400px;
+}
+.style_boisson_droite{
+    position: absolute;
+    z-index: 2;
+    bottom: 20%;
+    right: 10%;
+    font-size: 70px;
+    font-family:script MT ;
+    color: white;
 
+}
+.style_boisson_gauche{
+    position: absolute;
+    z-index: 2;
+    bottom: 20%;
+    left: 20%;
+    font-size: 70px;
+    font-family:script MT ;
+    color: white;
+
+}
+
+.ouverture_dejeuner{
+    position: absolute;
+    z-index: 2;
+    bottom: 5%;
+    left: 5%;
+    font-size: 30px;
+    font-family:script MT ;
+    color: white;
+}
 .instagram_droite {
     position: absolute;
     z-index: 7;

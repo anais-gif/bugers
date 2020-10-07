@@ -22,7 +22,7 @@
 
 <body>
     
-    <div id="carouselExampleControls" class="carousel vert slide" data-ride="carousel" data-interval="">
+    <div id="carouselExampleControls" class="carousel vert slide" data-ride="carousel" data-interval="400">
         <ol class="carousel-indicators">
             <li data-slide-to="0" data-spy="scroll" class=" indicateur"></li>
             <li class="indicateur" data-slide-to="1"></li>
@@ -38,11 +38,12 @@
         </ol>
 <!-- premier page -->
         <div class="carousel-inner">
-            <div class="carousel-item   ">
+            <div class="carousel-item active">
+
                 <img class="background_epices d-block" src="img/background_epices.jpeg"  alt="fond d'écran epices">
                     <img class="logo " src="img/Image_logo.png" alt="logo">
 
-                <div class="carousel-caption "></div>
+                <!-- <div class="carousel-caption "></div> -->
                     <h1 class="burgers w-100">BURGERS</h1>
                     <h2 class="cafe w-100">CAFE & BAR</h2>
                     <img src="img/Trace.png" alt="tracé" class="trace1">
@@ -56,7 +57,7 @@
         </div>
 
 <!-- deuxieme page -->
-        <div class="carousel-item ">
+        <div class="carousel-item active">
          
                 <img class=" background_menu_burgers w-100"  src="img/background_burgers.png" alt="fond d'écran menu burgers">
                     <div class="  bloc_gris"></div>
@@ -101,7 +102,7 @@
                     </div>
                 </div>    
 <!-- troisieme page  -->
-        <div class="carousel-item  ">
+        <div class="carousel-item  active">
 
                 <img class="background_mix w-100" src="img/background_mix.png" alt="fond d'écran burgers">
                 <div class=" w-100 bloc_gris"></div>
@@ -177,7 +178,7 @@
         </div>
 <!-- quatrieme page -->
         
-        <div class="carousel-item active "></div>
+        <div class="carousel-item active">
             <img class="d-block w-100" src="img/background_dejeuner.png" alt="fond d'écran déjeuner">
                 <div class=" w-100 bloc_gris"></div>
 
@@ -197,14 +198,45 @@
                 </div>
                 <div>
                     <a href="">
-                        <img src="img/cafe.png" alt="cafe" class="cafe">
+                        <img src="img/cafe.png" alt="cafe" class="cafe_cafe">
                     </a>
                 </div>
                 <div>
                     <p class="text_information-dejeuner">* petit déj de 6h à 10h <br>
                     * 2 formule boisson/boisson viennoiseries</p>
                 </div>
+    </div>
+    <div>
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="img/background_formule_dejeuner.png" alt="fond d'écran petit déjeuner">
+                <div class=" w-100 bloc_gris"></div>
 
+        <h1 class="titre_formule_petit_dejeuner">formule petit dejeuner </h1>
+
+        <div>
+            <a href="#">
+                <img class="boisson_tea " src="img/boisson_tea.png" alt="boisson tea">
+            </a>
+        </div>
+        <div><a href="#">
+            <img src="img/cappuchino.png" alt="cappucho"class="cappuchino">
+        </a>
+    </div>
+    <div>
+        <a href="#">
+            <img src="img/croissant.png" alt="" class="croissant">
+        </a>
+    </div>
+    <div>
+        <h2 class="style_boisson_gauche">Boisson seule</h2>
+    </div>
+    <div>
+        <h2 class="style_boisson_droite">Boisson + viennoiserie</h2>
+    </div>
+<div>
+    <p class="ouverture_dejeuner">* petit dej de 6h à 10h</p>
+</div>
+    </div>
         </div>
 
 </html>
