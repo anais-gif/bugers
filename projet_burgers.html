@@ -22,7 +22,7 @@
 
 <body>
 
-    <div id="carouselExampleControls" class="carousel vert slide" data-ride="carousel" data-interval="">
+    <div id="carouselExampleControls" class="carousel vert slide" data-ride="carousel" data-interval="00">
         <ol class="carousel-indicators">
             <li data-slide-to="0" data-spy="scroll" class=" indicateur"></li>
             <li class="indicateur" data-slide-to="1"></li>
@@ -38,7 +38,7 @@
         </ol>
         <!-- premier page -->
         <div class="carousel-inner">
-            <div class="carousel-item ">
+            <div class="carousel-item  ">
                 <img class="background_epices d-block" src="img/background_epices.jpeg" alt="fond d'écran epices">
                 <img class="logo " src="img/Image_logo.png" alt="logo">
 
@@ -61,7 +61,7 @@
 
 
                 <!-- burger -->
-                <div class="carousel-item ">
+                <div class="carousel-item active ">
 
                     <img class=" background_menu_burgers w-100" src="img/background_burgers.png"
                         alt="fond d'écran menu burgers">
@@ -295,14 +295,14 @@
                     </div>
 
                     <ul class="liste">
-                        <li>carlberg</li>
-                        <li>edelwei</li>
-                        <li>corona</li>
-                        <li>leffe</li>
-                        <li>hoegaarden</li>
-                        <li>grimbergen ambré</li>
-                        <li>grimbergen</li>
-                        <li>pietra</li>
+                        <a href="#"><li>carlberg</li></a>
+                        <a href=""><li>edelwei</li></a>
+                        <a href=""><li>corona</li></a>
+                        <a href=""><li>leffe</li></a>
+                        <a href=""><li>hoegaarden</li></a>
+                        <a href=""><li>grimbergen ambré</li></a>
+                       <a href=""> <li>grimbergen</li></a>
+                        <a href=""><li>pietra</li></a>
                     </ul>
                     <div>
                         <a href="#">
@@ -342,11 +342,9 @@
                             convives afin de créer l'ambiance et la conserver tout au long de l'animation. La soirée
                             karaoké peut également être revisitée avec un orchestre live et des cahiers de chants pour
                             une ambiance chaleureuse et conviviale</p>
-
                     </div>
                 </div>
           
-
                 <!-- notre etablissement -->
                 <div class="carousel-item ">
 
@@ -379,7 +377,7 @@
                 </div>
                     <!-- footer -->
             </div>
-                    <div class="carousel-item  active">
+                    <div class="carousel-item ">
 
                         <img class="background_evenement w-100" src="img/background_evenement.png"
                             alt="fond d'écran footer">
@@ -419,11 +417,21 @@
                         </div>
                             
                             <div class="fond_gris_portable"></div>
+
                             <div>
                                 <img src="img/carte_here.png" alt="" class="carte_here">
                             </div>
-
-                            
-                        </div>
+                        
+                        <form class=" email">
+                            <div class="col ">
+                              <input  type="text" class="radius"  placeholder="EMAIL">
+                            </div>
+                            <div>
+                            <textarea   class="radius" placeholder="COMMENTAIRE" required></textarea> 
+                                  </div>
+                               
+                        </form>
                     </div>
+                    </div>
+                 </div>
 </html>
