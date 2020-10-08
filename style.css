@@ -798,7 +798,7 @@ left: 5%;
     background-color:#0E1C1F ;
     position: absolute;
     z-index: 2;
-    bottom:-3%;
+    bottom:10%;
     right: 13%;
     transform: rotate(75deg);
     opacity: 0.50;
@@ -806,7 +806,12 @@ left: 5%;
 .carte_here{
     position: absolute;
     z-index: 3;
-    bottom:9%;
+    bottom:20%;
     right: 7%;
     width: 400px;
+}
+.email{
+    position: absolute;
+    z-index: 3;
+    bottom: 20%;
 }
