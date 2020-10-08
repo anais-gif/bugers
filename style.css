@@ -741,3 +741,33 @@ body {
     right: 18%;
     font-size: 20px;
 }
+.recommandation_footer{
+    position: absolute;
+    z-index: 3;
+    bottom: 10%;
+    color: rgb(252, 250, 248);
+   left: 10%;
+   text-align: center;
+}
+.recommandation_footer_mention_1{
+    position: absolute;
+    z-index: 3;
+    bottom:19%;
+    
+left: 5%;
+  
+}
+.recommandation_footer_mention_2{
+    position: absolute;
+    z-index: 3;
+    bottom:19%;
+    
+    left: 15%;
+}
+.recommandation_footer_mention_3{
+    position: absolute;
+    z-index: 3;
+    bottom:19%;
+
+    left: 45%;
+}
