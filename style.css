@@ -123,7 +123,6 @@ body {
 
 }
 
-
 .formule {
     position: absolute;
     z-index: 3;
@@ -134,12 +133,7 @@ body {
     transform: rotate(270deg);
     right: -300px;
     font-family: bebas_neueregular;
-
-
-
-
 }
-
 .titre_burgers {
     position: absolute;
     z-index: 3;
@@ -150,8 +144,6 @@ body {
     left: 90px;
     transform: rotate(-10deg);
     font-family: bebas_neueregular;
-
-
 }
 
 .bloc_gris {
@@ -196,7 +188,7 @@ body {
 
 .burgers_3 {
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     top: 20%;
     left: 21%;
     width: 310px;
@@ -269,27 +261,20 @@ body {
     font-size: 110px;
     color: white;
     font-family: bebas_neueregular;
-
 }
-
 .cocacola_droit {
     position: absolute;
     z-index: 1;
     top: 14%;
     right: -5%;
     height: 400px;
-
 }
-
 .cocacola_gauche {
     position: absolute;
     z-index: 1;
     top: 25%;
     left: -6%;
     height: 450px;
-
-
-
 }
 
 .salade_gauche {
@@ -820,8 +805,9 @@ left: 5%;
     z-index: 3;
    top: 35%;
    left: 20%;
-
-   
+}
+.espace{
+    margin-bottom: 20px;
 }
 .radius{
     border-radius: 30px;
@@ -833,3 +819,10 @@ input{
     margin: 20px;
 }
 
+a{
+    color: white !important
+
+} 
+a:hover{
+    zoom: 1.05;
+}
