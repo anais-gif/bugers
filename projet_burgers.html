@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta description="Trouver ici le meilleurs burger de tout Lons-Le-Saunnier">
+    <meta description="Trouver ici le meilleurs burger de tout Lons-Le-Saunnier">
     <title>le meilleurs burgers de Lons-Le-Saunnier</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -39,7 +39,7 @@
         </ol>
         <!-- premier page -->
         <div class="carousel-inner  ">
-            <div class="carousel-item active ">
+            <div class="carousel-item ">
                 <img class="background_epices d-block" src="img/background_epices.jpeg" alt="fond d'écran epices">
                 <img class="logo " src="img/Image_logo.png" alt="logo">
 
@@ -55,29 +55,23 @@
                 </div>
             </div>
             <div>
-               <a href="#"> <img class="instagram" src="img/instagram.png" alt=""></a>
-               <a href="#"> <img class="facebook" src="img/facebook.png" alt=""></a>
-               <a href="#"> <img class="messenger" src="img/messenger.png" alt=""></a>
-
-
+                <a href="#"> <img class="instagram" src="img/instagram.png" alt="instagram"></a>
+                <a href="#"> <img class="facebook" src="img/facebook.png" alt="facebook"></a>
+                <a href="#"> <img class="messenger" src="img/messenger.png" alt="messenger"></a>
 
                 <!-- burger -->
                 <div class="carousel-item  ">
-
-                    <img class=" background_menu_burgers w-100" src="img/background_burgers.png"
+                    <img class=" background_menu_burgers W-100 w100" src="img/background_burgers.png"
                         alt="fond d'écran menu burgers">
                     <div class="  bloc_gris"></div>
 
                     <section>
                         <!-- CAROUSEL EN JS HORIZONTAL -->
-                        <di>
-                            <h1 class="classique">classique</h1>
-                        </di>
                         <div>
-                            <a href="menu_burgers.html">
-                                <img src="img/burgers_classique.png" alt="burgers" class="animation_burgers">
-                            </a>
+                            <h1 class="classique">classique</h1>
                         </div>
+                        <div><a href="menu_burgers.html"><img src="img/burgers_classique.png" alt="burgers"
+                                    class="animation_burgers"></a></div>
                         <div>
                             <p class="recette">(pain maison, sauce au choux, steak 150gr, cheddar, tomate, salade,
                                 oignon, cornichon)</p>
@@ -103,8 +97,9 @@
                     <div>
                         <h2 class="titre_burgers">burgers</h2>
                     </div>
-                      <div><!-- defilement texte haut vers lel bas  -->
-                        <a href="menu_burgers.html" >
+                    <div>
+                        <!-- defilement texte haut vers lel bas  -->
+                        <a href="menu_burgers.html">
                             <h1 class=" formule">formule burgers</h1>
                         </a>
                     </div>
@@ -120,9 +115,9 @@
 
                 </div>
                 <!-- formule burgers   -->
-                <div class="carousel-item  ">
+                <div class="carousel-item  active">
 
-                    <img class="background_mix w-100" src="img/background_mix.png" alt="fond d'écran burgers">
+                    <img class="background_mix  w100" src="img/background_mix.png" alt="fond d'écran burgers">
                     <div class=" w-100 bloc_gris"></div>
 
                     <div>
@@ -196,24 +191,24 @@
                 </div>
 
                 <!-- petit dejeuner -->
-                <div class="carousel-item active "id="page_petit_dejeuner">
-                    <img class="d-block w-100" src="img/background_dejeuner.png" alt="fond d'écran déjeuner">
+                <div class="carousel-item  " id="page_petit_dejeuner">
+                    <img class="d-block w100" src="img/background_dejeuner.png" alt="fond d'écran déjeuner">
                     <div class=" w-100 bloc_gris"></div>
 
                     <div>
-                            <h1 class="petit_dejeuner">petit dejeuner</h1>
+                        <h1 class="petit_dejeuner">petit dejeuner</h1>
                     </div>
                     <div>
                         <img src="img/tache_de_cafe.png" alt="tache de cafe" class="tache_de_cafe">
                     </div>
                     <div>
-                            <p class="text_dejeuner">model text, and a search for 'lorem ipsum' will uncover many web
-                                sites still in their infancy. Various versions have evolved over the years, sometimes by
-                                accident, sometimes on purpose (injected humour and the like).
-                        </a>
+                        <p class="text_dejeuner">model text, and a search for 'lorem ipsum' will uncover many web
+                            sites still in their infancy. Various versions have evolved over the years, sometimes by
+                            accident, sometimes on purpose (injected humour and the like).
+                            </a>
                     </div>
                     <div>
-                            <img src="img/cafe.png" alt="cafe" class="cafe_cafe">
+                        <img src="img/cafe.png" alt="cafe" class="cafe_cafe">
                     </div>
                     <div>
                         <p class="text_information-dejeuner">* petit déj de 6h à 10h <br>
@@ -226,11 +221,11 @@
                         </a>
                     </div>
 
-                    <!-- <marquee behavior="scroll" class="formule">Le texte défile</marquee> -->
+                    <!-- <marquee behavior="scroll" class="formule">Le texte défile</marquee> ne mache pas avec le carousel  -->
 
                 </div>
                 <!-- formule petit dejeuner -->
-                <div class="carousel-item "  >
+                <div class="carousel-item ">
                     <img class="d-block w-100" src="img/background_formule_dejeuner.png"
                         alt="fond d'écran petit déjeuner">
                     <div class=" w-100 bloc_gris"></div>
@@ -293,7 +288,8 @@
                         <h2 class="biere_bouteille">bière bouteille</h2>
                     </div>
 
-                    <ul class="liste"><!-- defilement  bouteille au survole -->
+                    <ul class="liste">
+                        <!-- defilement  bouteille au survole -->
                         <a href="#">
                             <li>carlberg</li>
                         </a>
@@ -355,7 +351,7 @@
                             une ambiance chaleureuse et conviviale</p>
                     </div>
                 </div>
-          
+
 
                 <!-- notre etablissement -->
                 <div class="carousel-item  ">
@@ -446,5 +442,5 @@
                 </div>
             </div>
 
-            
+
 </html>
