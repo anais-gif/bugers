@@ -897,7 +897,7 @@ mobile*/
 .recette{bottom: 130vw;font-size: 5vw;width: 55vw;left: 21vw;}
 .burgers_2{width: 31vw;top: 33vh;right: 2vw;}
 .best{top: 38vh;width: 26vw;height: auto;}
-.formule{font-size: 20vw;right: -11vw;width: 20vw;bottom: 75vw;}
+.formule{font-size: 20vw;right: -12vw; width: 20vw; bottom: 60vw;}
 .burgers_3{ width: 30vw;top: 32vh;left: 10vw;}
 .classique{font-size: 14vw;left: 28vw;top: 33vh;z-index: 4;}
 .autre{left: 10vw;bottom: 53vh;font-size: 4vw;}
@@ -908,7 +908,7 @@ mobile*/
 .cocacola_gauche{width: 55vw;height: auto;top: 15vh;}
 .salade_gauche{width: 50vw;height: auto;top: 26vh;left: 10vw;}
 .salade_droite{width: 50vw;height: auto;top: 60vh;right: 10vw;}
-.petit_dejeuner{top: 35vh;font-size: 8vh;left: -3vw;}
+.petit_dejeuner{top: 38vh;font-size: 8vh;left: -3vw;}
 .frite_droite{width: 35vw;height: auto;top: 21vh;z-index: 1;left: 50vw;}
 .frite_gauche{width: 35vw;height: auto;top: 68vh;left: 65vw;z-index: 4}
 .burgers_droite{width: 47vw;height: auto;top: 70vh;z-index: 3;left: 13vw;}
@@ -918,4 +918,17 @@ mobile*/
 .menu_simple_recette{font-size: 5vw;width: 40vw;top: 60vh;left: 1vw;}
 .dessert{top: 40vh;width: 38vw;height: auto;left: -2vw;}
 .le_plus{font-size: 8vh;width: 14vw;top: 80vw;}
-            }
+.d-block{width:auto!important;max-width: initial!important;height:100%!important;}
+.cafe_cafe{ width: 40vh;left: 10vw;top: 8vh;}       
+.text_dejeuner{width: 80vw;font-size: 6vw;top: 50vh;left: 10vw;}   
+.tache_de_cafe{left: 5vw;width: 55vh;height: auto;top: 45ch;}
+.titre_formule_petit_dejeuner{display:none;}
+.boisson_tea{width: 80vw;top: 28vh;left: -2vw;}
+.cappuchino{top: 50vh;width: 45vw;left: 58vw;}
+.croissant{width: 20vh;top: 65vh;left: 50vw;}
+.style_boisson_gauche{top: 40vh;font-size: 9vw;width: 10vw;left: 70vw;}
+.style_boisson_droite{font-size: 9vw;width: 40vw;left: 5vw;top: 55vh;}
+.ouverture_dejeuner{    top: 27vh;
+    font-size: 5vw;
+    left: 45vw;}
+}
