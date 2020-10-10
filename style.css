@@ -904,15 +904,18 @@ mobile*/
 .background_mix{width:auto!important;max-width: initial!important;height:100%!important;}
 .menu_complet{top: 10vh;font-size: 15vw;left: 3vw;}
 .menu_simple{top: 185vw;right: 5vw;font-size: 7vh;}
-.cocacola_droit{width: 55vw;height: auto;bottom: 15vh;}
+.cocacola_droit{width: 55vw;height: auto;top: 50vh;left: 55vw;}
 .cocacola_gauche{width: 55vw;height: auto;top: 15vh;}
-.salade_gauche{width: 55vw;height: auto;top: 26vh;left: 10vw;}
-.salade_droite{width: 55vw;height: auto;top: 26vh;left: 10vw;}
+.salade_gauche{width: 50vw;height: auto;top: 26vh;left: 10vw;}
+.salade_droite{width: 50vw;height: auto;top: 60vh;right: 10vw;}
 .petit_dejeuner{top: 35vh;font-size: 8vh;left: -3vw;}
-.frite_droite{width: 46vw;height: auto;top: 15vh;right: -2vw;}
-.frite_gauche{width: 46vw;height: auto;top: 15vh;right: -2vw;}
-.burgers_droite{opacity: 0;}
-.burgers_gauche{width: 50vw;height: auto;top: 29vh}
-.vs{left: 10vw;top: 40vh;width: 50vw;}
-.menu_complet_recette{font-size: 8vw;width: 70vw;top: 20vh;}
+.frite_droite{width: 35vw;height: auto;top: 21vh;z-index: 1;left: 50vw;}
+.frite_gauche{width: 35vw;height: auto;top: 68vh;left: 65vw;z-index: 4}
+.burgers_droite{width: 47vw;height: auto;top: 70vh;z-index: 3;left: 13vw;}
+.burgers_gauche{width: 42vw;height: auto;top: 28vh;z-index: 2;left: 55vw;}
+.vs{left: 30vw;top: 45vh;width: 40vw;}
+.menu_complet_recette{font-size: 5vw;width: 50vw;top: 18vh;left: 45vw;}
+.menu_simple_recette{font-size: 5vw;width: 40vw;top: 60vh;left: 1vw;}
+.dessert{top: 40vh;width: 38vw;height: auto;left: -2vw;}
+.le_plus{font-size: 8vh;width: 14vw;top: 80vw;}
             }
