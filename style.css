@@ -878,9 +878,13 @@ mobile*/
 
 @media screen and (max-width:768px){
 .burgers{font-size:24vw;top: 65vw;}
-.cafe{font-size: 10vw;}
+.cafe{font-size: 3.5vh;
+    letter-spacing: 1rem;
+    top: 40vh;
+    left: 2vw;}
 .trace1{bottom:146vw;right:25vw ;}
-.recommandation{font-size: 3vw;bottom: 77vw;}
+.recommandation{font-size: 4vw;
+    top: 85vh;}
 .instagram{height: 15vw;left: 25vw; }
 .facebook{height:15vw;left: 40vw;}
 .messenger{height: 15vw; left: 56vw;}
@@ -922,13 +926,28 @@ mobile*/
 .cafe_cafe{ width: 40vh;left: 10vw;top: 8vh;}       
 .text_dejeuner{width: 80vw;font-size: 6vw;top: 50vh;left: 10vw;}   
 .tache_de_cafe{left: 5vw;width: 55vh;height: auto;top: 45ch;}
-.titre_formule_petit_dejeuner{display:none;}
+.titre_formule_petit_dejeuner{font-size: 7vh;top: 10vh;}
 .boisson_tea{width: 80vw;top: 28vh;left: -2vw;}
 .cappuchino{top: 50vh;width: 45vw;left: 58vw;}
 .croissant{width: 20vh;top: 65vh;left: 50vw;}
 .style_boisson_gauche{top: 40vh;font-size: 9vw;width: 10vw;left: 70vw;}
 .style_boisson_droite{font-size: 9vw;width: 40vw;left: 5vw;top: 55vh;}
-.ouverture_dejeuner{    top: 27vh;
-    font-size: 5vw;
-    left: 45vw;}
+.ouverture_dejeuner{top: 27vh;font-size: 5vw;left: 45vw;}
+.background-bar{width:auto!important;max-width: initial!important;height:100%!important;}
+.open_bar{font-size: 8vh;
+    top: 22vh;
+    left: 17vw;}
+.citron{    width: 25vh;
+    top: 15vh;
+    left: -16vw;}
+.notre_bar{display: none;}
+.nous_organisons{display: none;}
+.leffe{display: none;}
+.corona{top: 30vh;left: 2vw;;opacity: 0.60}
+.titre_bar{width: 35vh;height: 10vh;top: 22vh;}
+.biere_bouteille{font-size: 6vh;left: 17vw;top: 37vh;}
+.liste{left: 25vw;top: 45vh;width: 20vh;font-size: 8vw;}
+.abus{top: 90vh;font-size: 5vw;left: 5vw;}
+.clic{display: none;}
+
 }
