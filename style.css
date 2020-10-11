@@ -621,18 +621,17 @@ body {
     list-style-type: none;
 }
 
-.bar_1 {
+.burger_evenement {
     position: absolute;
     z-index: 3;
     color: black;
     font-size: 130px;
     text-transform: uppercase;
-    bottom: 7%;
+    bottom: 40%;
     transform: rotate(270deg);
-    right: 5px;
+    right: -300px;
     font-family: bebas_neueregular;
 }
-
 .abus {
     position: absolute;
     z-index: 2;
@@ -901,7 +900,7 @@ mobile*/
 .recette{bottom: 130vw;font-size: 5vw;width: 55vw;left: 21vw;}
 .burgers_2{width: 31vw;top: 33vh;right: 2vw;}
 .best{top: 38vh;width: 26vw;height: auto;}
-.formule{font-size: 20vw;right: -12vw; width: 20vw; bottom: 60vw;}
+.formule{font-size: 10vh;right: -12vh;}
 .burgers_3{ width: 30vw;top: 32vh;left: 10vw;}
 .classique{font-size: 14vw;left: 28vw;top: 33vh;z-index: 4;}
 .autre{left: 10vw;bottom: 53vh;font-size: 4vw;}
@@ -934,12 +933,8 @@ mobile*/
 .style_boisson_droite{font-size: 9vw;width: 40vw;left: 5vw;top: 55vh;}
 .ouverture_dejeuner{top: 27vh;font-size: 5vw;left: 45vw;}
 .background-bar{width:auto!important;max-width: initial!important;height:100%!important;}
-.open_bar{font-size: 8vh;
-    top: 22vh;
-    left: 17vw;}
-.citron{    width: 25vh;
-    top: 15vh;
-    left: -16vw;}
+.open_bar{font-size: 8vh;top: 22vh;left: 17vw;}
+.citron{width: 25vh;top: 15vh;left: -16vw;}
 .notre_bar{display: none;}
 .nous_organisons{display: none;}
 .leffe{display: none;}
@@ -949,5 +944,34 @@ mobile*/
 .liste{left: 25vw;top: 45vh;width: 20vh;font-size: 8vw;}
 .abus{top: 90vh;font-size: 5vw;left: 5vw;}
 .clic{display: none;}
+.burger_evenement{}
+.micro{width: 30vh;top: 20vh;left: -18vw;}
+.vos_micro{top: 65vh;font-size: 8vh;width: 100vw;left: 10vh;}
+.titre_animation{font-size: 15vw;left: 38vw;text-align: center;top: 8vh;}
+.animation_principal{font-size: 3vh;top: 30vh;width: 90vw;}
+.notre{font-size: 6vh;width: 350vw;left: 5vw;top: 15vh;}
+.etablissement{font-size: 7vw;width: 90vw;top: 25vh;line-height: 9vw;}
+.red{top: 82vh;width: 200vw;left: 1vw;}
+.carte{display: none;}
+.adresse{top: 82vh;left: 5vw;width: 150vw!important;}
+.here{display: none;}
+.carte_here{display: none;}
+.portable{display: none;}
+.fond_gris_portable{display: none;}
+.identiter{left: 32vw;top: 20vh;}
+.email{left: 11vw;}
+.bloc_gris_footer{left: 10vw;width: 80vw;height: 40vh;}
+.radius{width: 70vw;}
+.recommandation_footer_mention_1{top: 75vh;
+    font-size: 3.5vw;
+    left: 38vw;}
+.recommandation_footer_mention_2{    top: 77vh;
+    font-size: 3.5vw;
+    left: 10vw;
+}
+.recommandation_footer_mention_3{top: 79vh;font-size: 3.5vw}
+.recommandation_footer{    top: 85vh;
+    left: 2vw;
+    font-size: 3.5vw;}
 
 }
