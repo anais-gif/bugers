@@ -656,7 +656,20 @@ body {
     border-radius: 40px;
     text-align: end;
 }
-
+.clic_2{
+    position: absolute;
+    z-index: 2;
+    background-color: brown;
+    color: white;
+    width: 200px;
+    height: 60px;
+    bottom: -95%;
+    font-size: 40px;
+    font-family: bebas_neueregular;
+    left: 20%;
+    border-radius: 40px;
+    text-align: end;
+}
 .micro {
     position: absolute;
     z-index: 2;
@@ -876,20 +889,16 @@ a:hover {
 mobile*/
 
 @media screen and (max-width:768px){
-.burgers{font-size:24vw;top: 65vw;}
-.cafe{font-size: 3.5vh;
-    letter-spacing: 1rem;
-    top: 40vh;
-    left: 2vw;}
+.burgers{font-size: 30vw;top: 42vh;}
+.cafe{font-size: 5.5vh;letter-spacing: 1rem;top: 57vh;left: 2vw;}
 .trace1{bottom:146vw;right:25vw ;}
-.recommandation{font-size: 4vw;
-    top: 85vh;}
+.recommandation{font-size: 4vw;top: 85vh;}
 .instagram{height: 15vw;left: 25vw; }
 .facebook{height:15vw;left: 40vw;}
 .messenger{height: 15vw; left: 56vw;}
 .logo{ height:18vw;top: 5vw;right: 5vw;}
-.trace1{display: none;}
-.trace2{display:none;}
+.trace1{top: 93vw;right: -1vw;}
+.trace2{top: 56vh;left: -2vw;}
 .carousel-inner {height: 100vh;}
 .w100{width: auto!important;}
 .background_menu_burgers {width:auto!important;max-width: initial!important;height:100%!important;}
@@ -900,31 +909,31 @@ mobile*/
 .recette{bottom: 130vw;font-size: 5vw;width: 55vw;left: 21vw;}
 .burgers_2{width: 31vw;top: 33vh;right: 2vw;}
 .best{top: 38vh;width: 26vw;height: auto;}
-.formule{font-size: 10vh;right: -12vh;}
+.formule{font-size: 10vh;left: 51vw;width: 200vw;top: 9vh;}
 .burgers_3{ width: 30vw;top: 32vh;left: 10vw;}
 .classique{font-size: 14vw;left: 28vw;top: 33vh;z-index: 4;}
 .autre{left: 10vw;bottom: 53vh;font-size: 4vw;}
 .background_mix{width:auto!important;max-width: initial!important;height:100%!important;}
 .menu_complet{top: 10vh;font-size: 15vw;left: 3vw;}
 .menu_simple{top: 185vw;right: 5vw;font-size: 7vh;}
-.cocacola_droit{width: 55vw;height: auto;top: 50vh;left: 55vw;}
-.cocacola_gauche{width: 55vw;height: auto;top: 15vh;}
-.salade_gauche{width: 50vw;height: auto;top: 26vh;left: 10vw;}
-.salade_droite{width: 50vw;height: auto;top: 60vh;right: 10vw;}
-.petit_dejeuner{top: 38vh;font-size: 8vh;left: -3vw;}
-.frite_droite{width: 35vw;height: auto;top: 21vh;z-index: 1;left: 50vw;}
-.frite_gauche{width: 35vw;height: auto;top: 68vh;left: 65vw;z-index: 4}
-.burgers_droite{width: 47vw;height: auto;top: 70vh;z-index: 3;left: 13vw;}
-.burgers_gauche{width: 42vw;height: auto;top: 28vh;z-index: 2;left: 55vw;}
-.vs{left: 30vw;top: 45vh;width: 40vw;}
-.menu_complet_recette{font-size: 5vw;width: 50vw;top: 18vh;left: 45vw;}
-.menu_simple_recette{font-size: 5vw;width: 40vw;top: 60vh;left: 1vw;}
+.cocacola_droit{width: 50vw;height: auto;top: 53vh;left: 58vw;}
+.cocacola_gauche{width: 50vw;height: auto;top: 15vh;}
+.salade_gauche{width: 45vw;height: auto;top: 26vh;left: 7vw;}
+.salade_droite{    width: 45vw;height: auto;top: 64vh;right: 2vw;}
+.petit_dejeuner{top: 40vh;font-size: 8vh;left: -3vw;}
+.frite_droite{width: 35vw;height: auto;top: 21vh;z-index: 1;left: 45vw;}
+.frite_gauche{width: 35vw;height: auto;top: 72vh;left: 64vw;z-index: 4;}
+.burgers_droite{width: 46vw; height: auto;top: 70vh;z-index: 3;left: 15vw;}
+.burgers_gauche{width: 46vw; height: auto;top: 26vh;z-index: 2;left: 47vw;}
+.vs{ left: 28vw;top: 46vh;width: 47vw;}
+.menu_complet_recette{font-size: 5vw;width: 50vw;top: 18vh;left: 52vw;}
+.menu_simple_recette{font-size: 5vw;width: 40vw;top: 64vh;left: 1vw;}
 .dessert{top: 40vh;width: 38vw;height: auto;left: -2vw;}
 .le_plus{font-size: 8vh;width: 14vw;top: 80vw;}
 .d-block{width:auto!important;max-width: initial!important;height:100%!important;}
 .cafe_cafe{ width: 40vh;left: 10vw;top: 8vh;}       
-.text_dejeuner{width: 80vw;font-size: 6vw;top: 50vh;left: 10vw;}   
-.tache_de_cafe{left: 5vw;width: 55vh;height: auto;top: 45ch;}
+.text_dejeuner{width: 80vw;font-size: 5.5vw;top: 50vh;left: 10vw;}   
+.tache_de_cafe{left: -4vw; width: 65vh; height: auto;top: 44vh;}
 .titre_formule_petit_dejeuner{font-size: 7vh;top: 10vh;}
 .boisson_tea{width: 80vw;top: 28vh;left: -2vw;}
 .cappuchino{top: 50vh;width: 45vw;left: 58vw;}
@@ -940,15 +949,15 @@ mobile*/
 .leffe{display: none;}
 .corona{top: 30vh;left: 2vw;;opacity: 0.60}
 .titre_bar{width: 35vh;height: 10vh;top: 22vh;}
-.biere_bouteille{font-size: 6vh;left: 17vw;top: 37vh;}
-.liste{left: 25vw;top: 45vh;width: 20vh;font-size: 8vw;}
+.biere_bouteille{font-size: 6vh;left: 17vw;top: 32vh;}
+.liste{left: 25vw;top: 40vh;width: 20vh;font-size: 8vw;line-height: 1;}
 .abus{top: 90vh;font-size: 5vw;left: 5vw;}
 .clic{display: none;}
-.burger_evenement{}
+.burger_evenement{width: 200vw;font-size: 25vw;left: vw;right: -73vw;top: 198vw;word-spacing: 10rem;}
 .micro{width: 30vh;top: 20vh;left: -18vw;}
 .vos_micro{top: 65vh;font-size: 8vh;width: 100vw;left: 10vh;}
 .titre_animation{font-size: 15vw;left: 38vw;text-align: center;top: 8vh;}
-.animation_principal{font-size: 3vh;top: 30vh;width: 90vw;}
+.animation_principal{font-size: 3vh;top: 30vh;width: 90vw;line-height: 1.5;}
 .notre{font-size: 6vh;width: 350vw;left: 5vw;top: 15vh;}
 .etablissement{font-size: 7vw;width: 90vw;top: 25vh;line-height: 9vw;}
 .red{top: 82vh;width: 200vw;left: 1vw;}
@@ -962,16 +971,9 @@ mobile*/
 .email{left: 11vw;}
 .bloc_gris_footer{left: 10vw;width: 80vw;height: 40vh;}
 .radius{width: 70vw;}
-.recommandation_footer_mention_1{top: 75vh;
-    font-size: 3.5vw;
-    left: 38vw;}
-.recommandation_footer_mention_2{    top: 77vh;
-    font-size: 3.5vw;
-    left: 10vw;
-}
+.recommandation_footer_mention_1{top: 75vh;font-size: 3.5vw;left: 38vw;}
+.recommandation_footer_mention_2{top: 77vh;font-size: 3.5vw;left: 10vw;}
 .recommandation_footer_mention_3{top: 79vh;font-size: 3.5vw}
-.recommandation_footer{    top: 85vh;
-    left: 2vw;
-    font-size: 3.5vw;}
-
+.recommandation_footer{ top: 85vh;left: 2vw;font-size: 3.5vw;}
+.text_information-dejeuner{top: 88vh; font-size: 2.5vh;left: 2vw;}
 }
